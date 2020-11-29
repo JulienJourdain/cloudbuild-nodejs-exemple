@@ -29,5 +29,7 @@ steps:
         "${_REGION}",
         "--image",
         "${_REGISTRY_URL}/$PROJECT_ID/${_REGISTRY}/helloworld:$SHORT_SHA",
+        "--port",
+        "3000",
         "--allow-unauthenticated",
       ]
